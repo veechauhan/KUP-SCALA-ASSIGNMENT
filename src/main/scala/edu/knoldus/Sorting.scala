@@ -5,20 +5,7 @@ import scala.annotation.tailrec
 class Sorting {
 
   def insertionSort(array: Array[Int]): Array[Int] = {
-    //    for (j <- 1 until array.length) {
-    //      breakable {
-    //        for (i <- (1 to j).reverse) {
-    //          if (array(i - 1) < array(i)) {
-    //            break
-    //          } else {
-    //            val temp = array(i)
-    //            array(i) = array(i - 1)
-    //            array(i - 1) = temp
-    //          }
-    //        }
-    //      }
-    //    }
-    //    arrayii
+   
     val list: List[Int] = array.toList
 
     def helperInsertionSort(list: List[Int]): List[Int] =
