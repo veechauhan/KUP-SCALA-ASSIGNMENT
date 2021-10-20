@@ -1,4 +1,4 @@
-# Scala Assignment 01
+# KUP Scala Assignment 01
 
 ## Steps to Submit
 
